@@ -106,10 +106,11 @@ h1:hover {
 @media screen and (max-width:600px) {
     body {
         width: 95%;
+        height: 800px;
         
     }
     .container{
-        margin-top: 50px;
+        margin-top: 10px;
     }
     
 }
