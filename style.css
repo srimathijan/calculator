@@ -1,23 +1,26 @@
 body {
     width: 95%;
+    
     background-color: rgb(97, 83, 83);
-    user-select: none;
+   
 }
 
 h2 {
     color: rgb(32, 28, 28);
     justify-self: center;
-    border-bottom: 10px groove rgb(236, 223, 223);
+    border-bottom: 5px groove rgb(236, 223, 223);
 
 }
-
+.container{
+    align-content: center;
+    justify-content: center;
+    margin-top: 200px;
+}
 .calculator {
     width: 300px;
-    height: 500px;
-    border: solid 2px rgb(37, 37, 37);
-
+    height: 490px;
     margin: auto;
-    margin-top: 200px;
+    border: solid 2px rgb(37, 37, 37);
     background-color: rgb(61, 60, 60);
     border-radius: 20px;
     opacity: 0.6;
@@ -55,10 +58,10 @@ h2 {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    cursor: pointer;
+ 
     margin: 20px;
     gap: 10px;
-    margin-top: 30%;
+    margin-top: 30px;
     border-radius: 10px;
 
 
@@ -103,5 +106,7 @@ h1:hover {
 @media screen and (max-width:600px) {
     body {
         width: 95%;
+        
     }
+    
 }
