@@ -7,9 +7,15 @@ function clearDisplay() {
     display.value = ""
 }
 function calculateResult() {
+    try {
+        display.value = eval(display.value);
+    }
+    catch {
+        display.value = "error";
+    }
+}
+    function clearLastElement() {
+        display.value = display.value.slice(0, -1);
 
-    display.value = eval(display.value);
-}
-function clearLastElement() {
-    display.value = display.value.slice(0, -1);
-}
+
+    }
