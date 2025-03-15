@@ -1,7 +1,7 @@
 CodeAlpha-Calculator:
 
 This is a simple, responsive calculator created using HTML, CSS, and JavaScript. It supports basic arithmetic operations such as addition, subtraction, multiplication, 
-and division. The project aims to demonstrate the power of front-end technologies in creating a functional tool with minimalistic design.
+and division. The project aims to demonstrate the power of front-end technologies in creating a functional tool with minimalistic design..
 The calculator is designed to be easy to use, with clear buttons for each number and operation. It's lightweight, and works smoothly across most modern browsers.
 
 Features
